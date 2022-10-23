@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div {
+            margin: 20px;
+        }
+    </style>
+    <title>Валидатор</title>
+</head>
+
+<body>
+    <div>Стандартный</div>
+    <div>Мэйл:<input type="text" id="email"></div>
+    <div>Домен:<input type="text" id="domain"></div>
+    <div>Дата:<input type="text" id="date"></div>
+    <div>Телефон:<input type="text" id="phone"></div>
+    <br>
+    </form>
+    <div><button type="button" id="buttonStandard">Сохранить в стандартной версии</button></div>
+
+    <div><button type="button" id="buttonStatic">Сохранить в статической версии</button></div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
+
+<!-- // function validate(form_id,email) {
+    //     var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+    //     var address = document.forms[form_id].elements[email].value;
+    //     if(reg.test(address) == false) {
+    //        alert('Введите корректный e-mail');
+    //        return false;
+    //     }
+    //  } -->
